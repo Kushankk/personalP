@@ -5,6 +5,7 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { BoxGeometry, MeshStandardMaterial } from "three";
 import Cube from "./Cube"
+import line from "../images/line.png"
 
 const Left = styled.div`
     flex:1;
@@ -122,7 +123,7 @@ const Who = () =>{
                <Right>
                <Name>Something About Me.</Name>
                     <Whatdo>
-                        <Line src="src/images/line.png"/>
+                        <Line src={line}/>
                         <Subtitle>Crafting Digital Experiences with Code and Creativity</Subtitle>
                     </Whatdo>
                     <Desc>
