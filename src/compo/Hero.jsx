@@ -10,6 +10,7 @@ import { animateScroll } from 'react-scroll';
 import Who from "./Who"
 import logo from "../images/logo.png"
 import temp from "../images/temp.png"
+import line from "../images/line.png"
 
 
 
@@ -152,7 +153,7 @@ const Hero = () =>{
                <Left>
                     <Name>Hey, I am Kushank Virdi</Name>
                     <Whatdo>
-                        <Line src={logo}/>
+                        <Line src={line}/>
                         <Subtitle>Software/Web Developer</Subtitle>
                     </Whatdo>
                     <Desc>

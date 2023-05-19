@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/logo.png"
 
 
 
@@ -9,7 +10,7 @@ const Navbar = () =>{
         <div className="Navbar">
             <div className="InnerNavbar">
                 <div className="Links">
-                    <img className="logo" src="src/images/logo.png"/>
+                    <img className="logo" src={logo}/>
                     <ul className="Navigators">
                         {/* <li>Home</li>
                         <li>About</li>
