@@ -8,7 +8,6 @@ import { Sphere } from "react-simple-maps";
 import { SphereGeometry } from "three";
 import { animateScroll } from 'react-scroll';
 import Who from "./Who"
-import logo from "../images/logo.png"
 import temp from "../images/temp.png"
 import line from "../images/line.png"
 
