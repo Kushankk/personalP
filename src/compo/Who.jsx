@@ -123,7 +123,7 @@ const Who = () =>{
                <Name>Something About Me.</Name>
                     <Whatdo>
                         <Line src="src/images/line.png"/>
-                        <Subtitle>React, Npm, HTML, CSS, Javascript, Java, Python, C, MySQL, Git, Bootstrap, Pandas</Subtitle>
+                        <Subtitle>Crafting Digital Experiences with Code and Creativity</Subtitle>
                     </Whatdo>
                     <Desc>
                         I am a 2nd Year Computer Science Student at University of Victoria.Welcome to my personal portfolio website! My name is 
