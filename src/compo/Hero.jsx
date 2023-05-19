@@ -8,6 +8,8 @@ import { Sphere } from "react-simple-maps";
 import { SphereGeometry } from "three";
 import { animateScroll } from 'react-scroll';
 import Who from "./Who"
+import logo from "../images/logo.png"
+import temp from "../images/temp.png"
 
 
 
@@ -150,7 +152,7 @@ const Hero = () =>{
                <Left>
                     <Name>Hey, I am Kushank Virdi</Name>
                     <Whatdo>
-                        <Line src="./src/images/line.png"/>
+                        <Line src={logo}/>
                         <Subtitle>Software/Web Developer</Subtitle>
                     </Whatdo>
                     <Desc>
@@ -181,7 +183,7 @@ const Hero = () =>{
 
 
                   </Canvas>
-                  <Img src="./src/images/temp.png" alt="Image is Here" />
+                  <Img src={temp} alt="Image is Here" />
                 
                </Right>
             </div>
