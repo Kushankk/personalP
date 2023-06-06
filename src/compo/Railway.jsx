@@ -1,6 +1,6 @@
 import React from "react"
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Stage } from "@react-three/drei";
+import { Environment, OrbitControls, Stage } from "@react-three/drei";
 import Train from "./Train"
 import { styled } from "styled-components";
 
@@ -39,9 +39,13 @@ const Railway = () =>{
 
         <>
         <Canvas>
-            <Stage environment="city" intensity={0.6}>
+            
+            <ambientLight intensity={1.2}/>
+            <directionalLight position={[3,2,1]}/>
+            <directionalLight position={[0,0,1]}/>
+            
             <Train/>
-            </Stage>
+        
             <OrbitControls enableZoom={false} autoRotate/>
             
 

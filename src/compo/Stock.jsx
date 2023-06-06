@@ -42,9 +42,13 @@ const Stock = () =>{
         
         <Canvas>
             <Suspense fallback={null}>
-                <Stage environment="city" intensity={0.6} >
+               
+                <ambientLight intensity={1.2}/>
+                <directionalLight position={[2,2,-1]} />
+                
                 <Mac />
-                </Stage>
+                
+                
                 
                 <OrbitControls enableZoom={false} autoRotate/>
 

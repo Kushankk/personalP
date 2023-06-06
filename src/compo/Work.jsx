@@ -147,6 +147,7 @@ const Work = () =>{
                 </Left>
                 <Right>
                 {work === "Stock Price Analyzer" ? (<Stock/>): work ==="Railway Management" ? (<Railway/>) : (<Tindog/>)}
+                
                 </Right>
 
 
