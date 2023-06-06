@@ -21,9 +21,9 @@ const Left = styled.div`
     gap:20px;
 
     @media only screen and (max-width:768px) {
-      flex:1;
+      /* flex:1; */
       align-items:center;
-      justify-content:center;
+      justify-content: center;
       
       
       
@@ -40,7 +40,7 @@ const Right = styled.div`
     position:relative;
 
     @media only screen and (max-width:768px) {
-      flex:1;
+      flex:0;
       display: none;
       width: 0px;
       
